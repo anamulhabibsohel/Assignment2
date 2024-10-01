@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+   <meta name = "description" content = "Md Anamul Habib, COMP125 Assignment 2">
+   <meta name = "keywords" content = "COMP 125, Centennial College, HTML5, CSS3, JavaScript, Assignment 2">
+   <title>Assignment 2</title>
+   <link rel = "stylesheet" type = "text/css" href = "photos.css">
+   <style type="text/css">
+   </style>
+   <script type="text/javascript">
+</script>
+</head>   
+
+
+<body>
+    <header>
+    </header>
+    <div>
+        <h2>Photo Gallery</h2>
+    </div>
+  
+    <div>
+        <article>
+            <div id="leftarrow">
+                <p>&lt;</p>
+            </div>
+            <figure id="fig2">
+                <img width="330" height="280" />
+            </figure>
+            <figure id="fig3">
+                <img id="zoomID" width="410" height="390" />
+  
+            </figure>
+            <figure id="fig4">
+                <img width="330" height="280" />
+            </figure>
+            <div id="rightarrow">
+                <p>&gt;</p>
+            </div>
+            <div id="fiveButton"><br/><br/><br/><br/><br/><br/><br/><br/>
+                <p id="id1" "FP_changeProp(/id/'id1',0,'style.letterSpacing','3pt','style.fontSize','small (12 pt)','style.color','#FFFFFF','style.fontFamily','\'Trebuchet MS\'','style.textTransform','uppercase','style.fontWeight','bold')">Show more images</p>
+            </div>
+        </article>
+    </div>
+
+
+    <div class="favs" id="favs">
+        <p class="favsPara">Favorites</p>   
+	<div id="footer" style="position: absolute; left: 0px; top: 400px; width: 920px; height: 70px; z-index: 4">
+	<p>
+	<a href="../../index.html">Back to Index</a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Md Anamul Habib - COMP125 - Assignment 2 - Winter 2024</p>
+</div></div>
+   <script src="photos.js"></script>
+</body>
+</html>
